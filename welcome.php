@@ -7,7 +7,7 @@ if (($unm=="divyesh" || $unm=="rutvik") && ($pass=="0007" || $pass=="9006") )
   exit;  
 }
 else{
-  header('Location: login.html');
+  header('Location: index.php');
   exit;
 }
 ?>
