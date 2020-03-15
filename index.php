@@ -180,8 +180,8 @@ input:focus, textarea:focus {
       </p>
       
      
-      <p class="text">
-        <input name="pass" type="password" required placeholder="Password" id="pass" />
+      <p class="name">
+        <input name="pass" type="password" class="feedback-input" required placeholder="Password" id="pass" />
       </p>
       
       
