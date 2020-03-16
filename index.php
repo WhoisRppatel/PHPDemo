@@ -25,13 +25,13 @@
 			</div>
 			<hr />
 			<div class="modal-body">
-				<form action="" role="form">
+				<form action="welcome.php" method="post" role="form">
 					<div class="form-group">
 						<div class="input-group">
 							<span class="input-group-addon">
 							<span class="glyphicon glyphicon-user"></span>
 							</span>
-							<input type="text" class="form-control" placeholder="User Name" />
+							<input type="text" class="form-control" placeholder="User Name" name="unm" />
 						</div>
 					</div>
 					<div class="form-group">
@@ -39,7 +39,7 @@
 							<span class="input-group-addon">
 							<span class="glyphicon glyphicon-lock"></span>
 							</span>
-							<input type="password" class="form-control" placeholder="Password" />
+							<input type="password" class="form-control" placeholder="Password" name="pass" />
 
 						</div>
 
